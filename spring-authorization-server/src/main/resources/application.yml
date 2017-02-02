@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+security:
+  oauth2:
+    client:
+      client-id: testclient
+      client-secret: secret
+      scope: openid

@@ -1,0 +1,45 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list>
+      <Biscuit>
+        <option name="date" value="-1" />
+        <option name="domain" value="localhost" />
+        <option name="name" value="JSESSIONID" />
+        <option name="path" value="/" />
+        <option name="value" value="672305B5C4BFFB286D5DDC9F413F6BB4" />
+      </Biscuit>
+    </list>
+  </option>
+  <option name="httpMethod" value="GET" />
+  <option name="urlBase" value="http://localhost:8090" />
+  <option name="urlPath" value="/userinfo" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Content-Type" />
+        <option name="value" value="application/json" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Authorization" />
+        <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmZGY4NmQyMi1kNmM4LTQ1ZjMtYjM1OS01OTUxZmM5ZmVmOTMiLCJzY29wZSI6WyJvcGVuaWQiXSwiZ2l2ZW5fbmFtZSI6IkhhbnMiLCJleHAiOjE0ODYwMDg0MzUsImZhbWlseV9uYW1lIjoiTXVzdGVybWFubiIsImVtYWlsIjoiaG11c2VybWFubkBleGFtcGxlLmNvbSIsImp0aSI6IjE5OGE5MDk1LTUwZjEtNDkzOC05M2ExLTc5MWU4OTNjNDI3OSIsImNsaWVudF9pZCI6InRlc3RjbGllbnQifQ.jQAe-wQCF6Au-IDZvqFgciSoiRiw5MsF_Rg2zix7sZc" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list />
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="grant_type=password&amp;username=hmusermann@example.com&amp;password=secret&amp;scope=openid " />
+  <option name="filesToSend" value="" />
+</RestClientRequest>
