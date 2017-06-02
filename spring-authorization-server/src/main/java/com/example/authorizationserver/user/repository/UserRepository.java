@@ -1,6 +1,7 @@
 package com.example.authorizationserver.user.repository;
 
 import com.example.authorizationserver.user.entity.User;
+import org.springframework.data.keyvalue.repository.KeyValueRepository;
 import org.springframework.data.repository.CrudRepository;
 
 /**

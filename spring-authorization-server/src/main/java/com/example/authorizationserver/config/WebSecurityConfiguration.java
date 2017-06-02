@@ -29,11 +29,14 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .formLogin().permitAll()
+                .formLogin().loginPage("/login").permitAll()
                 .and()
-                .requestMatchers().antMatchers("/login", "/oauth/token_key", "/oauth/authorize", "/oauth/confirm_access")
+                .logout().permitAll()
+                .and()
+                .requestMatchers().antMatchers("/login/**", "/userlist/**", "/oauth/token_key", "/oauth/authorize", "/oauth/confirm_access")
                 .and()
                 .authorizeRequests()
+                    .antMatchers("/resources/**").permitAll()
                     .antMatchers("/oauth/token_key").permitAll()
                     .anyRequest().authenticated();
     }

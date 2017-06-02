@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 9999
 
 security:
   oauth2:
@@ -7,3 +7,9 @@ security:
       client-id: testclient
       client-secret: secret
       scope: openid
+logging:
+  level:
+    org:
+      springframework:
+        security: trace
+
